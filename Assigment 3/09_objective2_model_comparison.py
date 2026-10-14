@@ -1,4 +1,19 @@
+"""HIT140 Objective 2 - primary model comparison (HD-ready).
 
+Scientific design
+-----------------
+* Complete calendar dates define the chronological hold-out.
+* The final test period is never used for hyperparameter selection.
+* Three expanding-date CV folds are created inside the training period.
+* Both team-perspective rows from one match stay together for Regression 2.2.
+* A training-mean baseline is compared with OLS, Ridge and Lasso.
+* Ridge/Lasso alpha is selected only from the pre-specified PRIMARY_ALPHA_GRID.
+* MAE is the primary selection metric; RMSE and R2 provide complementary evidence.
+
+This script deliberately keeps the primary alpha grid fixed so the final results remain
+comparable with the group's previously frozen analysis. A separate training-only
+sensitivity analysis is provided in 10_objective2_hd_diagnostics.py.
+"""
 
 from pathlib import Path
 import numpy as np
