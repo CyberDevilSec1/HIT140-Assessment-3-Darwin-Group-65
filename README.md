@@ -110,6 +110,10 @@ HIT140-Assessment3-Darwin-Group65/
 ```
 
 ## Collaboration
-GitHub Issues, member branches, Pull Requests, cross-reviews, meeting notes, a contribution log and a final QA checklist are used to document collaboration.
-
-**Important:** All dates, commit IDs, issue numbers and pull-request numbers must be genuine. Do not invent evidence.
+Group collaboration was documented primarily through Microsoft Teams meetings, agreed task allocation, individual coding responsibilities, repository commits, independent review of another member's work, and final group quality checks.
+The coding responsibilities were divided as follows:
+- Muhammad Kumail Abbas (S397291): data/source validation, missing-value checks, exploratory data analysis and correlation analysis, with independent review of Regression 2.2 results and methodology.
+- Roman Bisural (S397541): leakage-safe dataset preparation, Regression 2.1 modelling, chronological train/test splitting, expanding cross-validation and model comparison, with review of Regression 2.2 robustness and reproducibility.
+- Suriya Sankar (S397448): Regression 2.2 modelling, evaluation and interpretation, with independent review of Regression 2.1 cross-validation stability and limitations.
+- Khushi (S398777): training-only robustness and sensitivity analysis, figure review, cross-task synthesis and final quality assurance.
+Three Microsoft Teams meetings were used to document planning, progress review, model results, robustness checks and final submission readiness.
