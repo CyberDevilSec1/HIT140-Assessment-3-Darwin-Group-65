@@ -95,18 +95,24 @@ Run the scripts in this order:
 
 ## Repository Structure
 ```text
-HIT140-Assessment3-Darwin-Group65/
+HIT140-Assessment-3-Darwin-Group-65/
 ├── README.md
-├── TASK_ASSIGNMENT.md
 ├── requirements.txt
 ├── .gitignore
-├── src/
-├── data/
-├── outputs/objective2/
-├── report/
-├── documentation/
-├── issues/
-└── .github/PULL_REQUEST_TEMPLATE/
+│
+├── Assigment 3/
+│   ├── 05_objective2_prepare_datasets_CORRECTED.py
+│   ├── 06_objective2_linear_regression_2_1.py
+│   ├── 07_objective2_linear_regression_2_2.py
+│   ├── 08_objective2_eda.py
+│   ├── 09_objective2_model_comparison.py
+│   ├── 10_objective2_hd_diagnostics.py
+│  
+│ 
+│
+├── DATA/
+└── OUTPUT/
+    └── OBJECTIVE2/
 ```
 
 ## Collaboration
