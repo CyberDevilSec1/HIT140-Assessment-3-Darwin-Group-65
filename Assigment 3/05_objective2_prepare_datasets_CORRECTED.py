@@ -1,21 +1,4 @@
-# ============================================================
-# HIT140 - FIFA World Cup 2026
-# Objective 2 - Prepare regression datasets
-# ============================================================
-# Regression 2.1: 104 actual matches, exactly 8 pre-match predictors
-# Regression 2.2: 208 team-match rows, exactly 8 pre-match predictors
-#
-# Predictor design:
-# - prior average goals scored
-# - prior average goals conceded
-# - prior points per game
-# - prior clean-sheet rate
-# for BOTH opposing teams.
-#
-# All four measures are calculated only from World Cup matches on dates
-# strictly before the current match date (kickoff times are not available). For a team's first tournament match, its prior
-# tournament values are 0 because it has no earlier World Cup 2026 match.
-# ============================================================
+
 
 from pathlib import Path
 import pandas as pd
