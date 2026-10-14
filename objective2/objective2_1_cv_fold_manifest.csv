@@ -1,4 +1,0 @@
-fold,train_matches,validation_matches,train_rows,validation_rows,train_start,train_end,validation_start,validation_end
-1,28,12,28,12,2026-06-11,2026-06-18,2026-06-19,2026-06-21
-2,40,14,40,14,2026-06-11,2026-06-21,2026-06-22,2026-06-24
-3,54,18,54,18,2026-06-11,2026-06-24,2026-06-25,2026-06-27
